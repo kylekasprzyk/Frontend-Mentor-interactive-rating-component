@@ -1,0 +1,291 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    3. Allow percentage-based heights in the application
+  */
+html,
+body {
+    height: 100%;
+}
+
+/*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    8. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #131518;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card {
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 32px 39px 32px 32px;
+}
+
+.oval {
+    height: 48px;
+    width: 48px;
+    background: #262E38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img {
+    width: 1rem;
+    height: 1rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding: 30px 0 15px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    padding-right: 40px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 0;
+}
+
+.btn-number {
+    width: 51px;
+    height: 51px;
+    background: #262E38;
+    border-radius: 50%;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7C8798;
+    padding-top: 0.2rem;
+}
+
+.btn-number:hover {
+    cursor: pointer;
+    background: #FC7614;
+    color: #FFFFFF;
+}
+
+.btn-number:focus {
+    background: #7C8798;
+    color: #FFFFFF;
+}
+
+.btn-submit {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #FC7614;
+    border-radius: 22.5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FC7614;
+}
+
+
+
+.thank-you {
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 32px 39px 32px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you img {
+    height: 108px;
+    width: 162px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rectangle {
+    background: #262E38;
+    border-radius: 22.5px;
+    width: 193px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.2rem;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #FC7614;
+}
+
+.thank-you p {
+    padding-right: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+        padding: 24px 24px 24px 24px;
+    }
+
+    h1 {
+        padding-top: 1rem;
+    }
+
+    .card p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0;
+    }
+
+    .btn-number {
+        width: 42px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.175px;
+        padding-top: 0.2rem;
+    }
+
+    .thank-you {
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+        padding: 34px 24px 37px 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .thank-you p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+    position: sticky;
+    top: 95%;
+}
+
+.attribution a {
+    color: hsl(25, 97%, 53%)
+}
