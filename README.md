@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <div align="center">
-  <h1><img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor"> Frontend Mentor - QR code component solution</h1>
+  <h1><img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor"> Frontend Mentor - Interactive rating component solution</h1>
   <h2>
     <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI"><strong>Frontend Mentor Challenge</strong></a>  </h2>
     <p>
@@ -34,8 +34,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-solution-C7VcLlqaC2](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-C7VcLlqaC2)
+- Live Site URL: [https://kylekasprzyk.github.io/Frontend-Mentor-interactive-rating-component/](https://kylekasprzyk.github.io/Frontend-Mentor-interactive-rating-component/)
 
 ## Built with
 
@@ -47,7 +47,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## What I learned
 
-I created a waving animation for the card component on page load.
+I added a waving animation for the card component on page load.
 
 ```css
 .card {
