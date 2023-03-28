@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Frontend%20Mentor%20Interactive%20rating%20component%20screenshot.png)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
