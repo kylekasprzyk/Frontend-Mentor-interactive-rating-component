@@ -34,9 +34,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Links
 
-[Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-C7VcLlqaC2)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-C7VcLlqaC2)
 
-[Live Site URL](https://kylekasprzyk.github.io/Frontend-Mentor-interactive-rating-component/)
+- [Live Site URL](https://kylekasprzyk.github.io/Frontend-Mentor-interactive-rating-component/)
 
 ## Built with
 
